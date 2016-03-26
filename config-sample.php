@@ -1,17 +1,17 @@
 <?php
+/*change the file name to config.php to make it.*/
 
 $_config=array();
 //数据库配置
-$_config['db']['hostname']='127.0.0.1';
-$_config['db']['username']='byrbbs';
-$_config['db']['password']='woaiwojia';
-//$_config['db']['password']='root';
-$_config['db']['database']='byrbbs';
-$_config['db']['charset']='utf8';
+$_config['db']['hostname']='';
+$_config['db']['username']='';
+$_config['db']['password']='';
+$_config['db']['database']='';
+$_config['db']['charset']='';
 $_config['db']['pconnect']=0;
-$_config['db']['tablepre']='bbs_';
+$_config['db']['tablepre']='';
 $_config['db']['log']=1;
-$_config['db']['logpath']='log/';
+$_config['db']['logpath']='';
 
 //时区设置
 date_default_timezone_set('Asia/Shanghai');

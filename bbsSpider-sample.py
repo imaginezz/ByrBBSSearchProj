@@ -4,6 +4,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import time
 import pymysql
+#add the database settings to below
 conn=pymysql.connect(host='',user='',passwd='',db='',port=,charset='utf8')
 
 def genData(url):

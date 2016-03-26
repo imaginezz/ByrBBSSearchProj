@@ -4,7 +4,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import time
 import pymysql
-conn=pymysql.connect(host='localhost',user='byrbbs',passwd='woaiwojia',db='byrbbs',port=3306,charset='utf8')
+conn=pymysql.connect(host='',user='',passwd='',db='',port=,charset='utf8')
 
 def genData(url):
 	ttXml=urllib.request.urlopen(url).read().decode('gbk')

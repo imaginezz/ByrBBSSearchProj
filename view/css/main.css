@@ -1,0 +1,180 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:"微软雅黑","等线",Arial, Helvetica, sans-serif;
+	color:#777;
+}
+
+a{
+	color:#87CEFA;
+	text-decoration:none;
+}
+
+header{
+	font-size:25px;
+	background-color:#f8f8f8;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10%;
+	color:#87CEFA;
+	display:none;
+}
+
+#title p{
+	color:#87CEFA;
+	padding-top:20px;
+	padding-left:48px;
+	font-size:15px;
+}
+
+.label{
+	font-size:20px;
+	color:#87CEFA;
+	padding-top:30px;
+	display:none;
+}
+
+#content{
+	margin:0 auto;
+	width:50%;
+	padding-top:15px;
+	padding-bottom:80px;
+}
+
+#search{
+	text-align:center;
+	display:none;
+}
+#search #title{
+	font-size:35px;
+	color:#87CEFA;
+	padding-bottom:60px;
+}
+
+.inputBar,.submitBar{
+	font-size:20px;
+}
+.inputBar{
+	height:32px;
+	width:20%;
+	margin-right:20px;
+	border-style:solid;
+	border-color:#d8d8d8;
+	border-width:1px;
+}
+.inputBar:hover{
+	border-color:#c8c8c8;
+}
+.inputBar:focus{
+	border-color:#3385ff;
+}
+
+.submitBar{
+	height:34px;
+	cursor:pointer;
+	font-size:18px;
+	padding:0 20px 0 20px;
+	color:#fff;
+	background-color:#3385ff;
+	border-style:none;
+	border-bottom-style:solid;
+	border-bottom-color:#3385ff;
+	border-bottom-width:0.8px;
+}
+.submitBar:hover{
+	background-color:#317ef3;
+	border-bottom-style:solid;
+	border-bottom-color:#2868c8;
+	border-bottom-width:0.8px;
+}
+.submitBar:active{
+	background-color:#3075dc;
+	border-bottom-style:solid;
+	border-bottom-color:#2868c8;
+	border-bottom-width:0.8px;
+}
+
+.result{
+	margin:0 auto;
+	margin-top:20px;	
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	border:solid #ccc 1px;
+    border-radius:6px;
+	box-shadow:0 1px 1px #ccc;
+	display:none;
+}
+.result tr:hover{
+	background:#fbf8e9;
+	transition:all 0.1s ease-in-out;
+}
+.result td, .result th{
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	padding:10px;
+	text-align:center;
+}
+.result th{
+	background-color:#dce9f9;
+	background-image:linear-gradient(top,#ebf3fc,#dec9f9);
+	box-shadow:0 1px rgba(255,255,255,.8) inset;
+	border-top:none;
+	text-shadow:0 1px 0 rgba(255,255,255,.5);	
+}
+.result td:first-child, .result th:first-child{
+	border-left:none;
+}
+.result th:first-child{
+	border-radius:6px 0 0 0;
+}
+.result th:last-child{
+	border-radius:0 6px 0 0;
+}
+.result th:only-child{
+	border-radius:6px 6px 0 0;
+}
+.result tr:last-child td:first-child{
+	border-radius:0 0 0 6px;
+}
+.result tr:last-child td:last-child{
+	border-radius:0 0 6px 0;
+}
+
+
+footer{
+	height:60px;
+	width:100%;
+	font-size:14px;
+	background-color:#f8f8f8;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+}
+
+/*移动版适配	*/
+@media only screen and (max-width: 400px){
+	header{
+		padding-left:0;
+		text-align:center;
+	}
+	#content{
+		width:100%;
+		text-align:center;
+	}
+	#search p{
+		font-size:20px;
+	}
+	#datePicker{
+		display:block;
+		text-align:center;
+		width:100%;
+		margin-bottom:20px;
+	}
+	#datePickerBtn{
+		display:block;
+		text-align:center;
+		width:100%;
+	}
+}

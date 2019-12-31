@@ -41,8 +41,9 @@
 </div>
 <footer id="footer">
 	数据来自 <a href="http://bbs.byr.cn">北邮人论坛</a><br/>
-	<a href="http://www.zhengzi.me">&copy;2016 zhengzi.me</a>&nbsp;&nbsp;&nbsp;
-	<a href="http://blog.zhengzi.me/274.html">点击这里意见或留言</a><br />
+	<a href="http://www.zhengzi.me">&copy;2020 zhengzi.me</a>&nbsp;&nbsp;&nbsp;
+	<a href="http://beian.miit.gov.cn">陇 ICP 备 15003463 号</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://blog.zhengzi.me/ten_top_of_byr_bbs/">点击这里意见或留言</a><br />
 	<script type="text/javascript">
 		var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257729464'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257729464%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
 	</script>
